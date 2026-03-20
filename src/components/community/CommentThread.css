@@ -1,0 +1,54 @@
+.comment-thread {
+  margin-top: 8px;
+}
+
+.comment-bubble {
+  background: #f9fafb;
+  border-radius: 6px;
+  padding: 10px 14px;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.comment-author {
+  font-weight: 600;
+  font-size: 13px;
+  color: #111827;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.comment-text {
+  margin: 0;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.reply-button {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 0 0;
+}
+
+.reply-button:hover {
+  text-decoration: underline;
+}
+
+.comment-replies {
+  margin-left: 20px;
+  padding-left: 12px;
+  border-left: 2px solid #e5e7eb;
+}

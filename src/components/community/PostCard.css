@@ -1,0 +1,55 @@
+.post-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.post-author {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+}
+
+.post-date {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.post-title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.post-body {
+  margin: 0 0 16px;
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.post-comments-section {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 16px;
+}
+
+.comments-heading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  margin: 0 0 12px;
+}
+
+.add-comment {
+  margin-top: 12px;
+}

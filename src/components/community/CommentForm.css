@@ -1,0 +1,28 @@
+.comment-form {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.comment-form-actions {
+  display: flex;
+  gap: 6px;
+}
